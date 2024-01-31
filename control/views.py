@@ -10,9 +10,7 @@ from .forms import *
 from django.contrib import messages
 from django.contrib.auth import login, logout, authenticate
 from django.urls import reverse_lazy
-from localStoragePy import localStoragePy
 
-localStorage = localStoragePy('me.jkelol111.mypythonapp', 'text')
 def is_ajax(request):
     return request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest'
 
