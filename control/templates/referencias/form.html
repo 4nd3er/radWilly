@@ -1,0 +1,36 @@
+<div class="modal-body"> 
+    <div class="row">
+    {% csrf_token %}
+        {% for campo in form %}
+            {% if campo.name == 'idmarcas' or campo.name == 'idubicacion' or campo.name == 'idposicion' or campo.name == 'idempresa' %}
+                <div class="col-6 mb-4">
+                    <label class="form-label">{{ campo.label }}</label>
+                    <select class="form-select" name="{{ campo.name }}" value="{{ campo.value | default:''}}">
+                        {% for select in campo %}
+                            {{ select }}
+                        {% endfor %}
+                    </select>
+                    <div id="errores{{campo.name}}">
+
+                    </div>
+                </div>
+            {% else %}
+                <div class="col-6 mb-4">
+                    <label class="form-label">{{ campo.label }}</label>
+                    <input
+                        type="text"
+                        id="{{campo.name}}"
+                        class="form-control {{ campo.name }}" 
+                        name="{{ campo.name }}"
+                        aria-describedby="helpId"
+                        placeholder="{{campo.label}}"
+                        value="{{ campo.value | default:''}}"
+                    />
+                    <div id="errores{{campo.name}}">
+
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

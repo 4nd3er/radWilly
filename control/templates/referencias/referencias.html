@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block titulo %}
+    Referencias
+{% endblock titulo %}
+
+{% block contenido %}
+
+    {% load static %}
+
+    <div class="col-md my-4 py-2 text-center title mx-auto rounded"
+        style="border: 2px solid lightgray; color: gray; width: 97%;">
+        <h3>REFERENCIAS</h3>
+    </div>
+
+    <div class="row mt-3 mb-3 container-fluid mx-auto" style="gap: 20px;">
+        <div class="col-md" style="border: 1px solid;border-radius: .5rem;">
+            {% include 'search.html' %}
+        </div>
+        <div class="col-md" style="border: 1px solid; border-top-right-radius: .5rem; border-radius: .5rem;">
+            <div class="row text-center mx-auto">
+                <div class="col-md col-sm">
+                    <button class="btn btn-outline-secondary my-5" style="border: 2px solid" onclick="abrirModalCrear('{% url 'crear_Referencia' %}')" role="button">
+                        REGISTRAR <i class="bi bi-plus-circle"></i>
+                    </button>
+                </div>
+                <div class="col-md col-sm">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-outline-secondary my-5" style="border: 2px solid">
+                            EXPORTAR
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row m-3" style="border-radius: .3rem; border: 1px solid gray;">
+        <span style="position: relative; bottom: .75rem; left: .5rem; background-color: white; width: auto;">Buscar por marca</span>
+        <form method="GET">
+            <input id="buscarMarca" type="hidden" name="buscar" onchange="buscarMarcaGet();" value="{{request.GET.buscar}}" />
+                {% for dato in marcas %}
+                    <button class="mb-2 mt-1 btn btn-sm btn-outline-secondary btnMarca" onclick="buscarMarcaGet('{{dato}}');">{{ dato }}</button>
+                {% endfor %}
+        </form>
+    </div>
+
+    {% comment %} <div class="row container-fluid">
+        <div class="col-md m-3">
+            <div class="row" style="border-radius: .3rem; border: 1px solid gray;">
+                <span style="position: relative; bottom: .75rem; left: .5rem; background-color: white; width: auto;">Buscar por marca</span>
+                <form method="GET">
+                    <input id="buscarMarca" type="hidden" name="buscar" onchange="buscarMarcaGet();" value="{{request.GET.buscar}}" />
+                        {% for dato in marcas %}
+                            <button class="mb-2 mt-1 btn btn-sm btn-outline-secondary btnMarca" onclick="buscarMarcaGet('{{dato}}');">{{ dato }}</button>
+                        {% endfor %}
+                </form>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="row m-3" style="border-radius: .3rem; border: 1px solid gray;">
+                <span style="position: relative; bottom: .75rem; left: .5rem; background-color: white; width: auto;">Buscar por lugar</span>
+                <form method="GET">
+                    <input id="buscarMarca" type="hidden" name="buscar" onchange="buscarMarcaGet();" value="{{request.GET.buscar}}" />
+                        {% for dato in posiciones %}
+                            <button class="mb-2 mt-1 btn btn-sm btn-outline-secondary btnMarca" onclick="buscarMarcaGet('{{dato}}');">{{ dato }}</button>
+                        {% endfor %}
+                </form>
+            </div>
+        </div>
+    </div> {% endcomment %}
+  
+    <div class="mb-3 container-fluid rounded card border-0" style="height: 50vh;">
+        <div class="table-responsive">
+            <table class="table table-bordered rounded" style="text-align: center;">
+                <thead class="table-secondary">
+                    <tr>
+                        <th scope="col">Numero de referencia</th>
+                        <th scope="col">Marca</th>
+                        <th scope="col">Nombre de referencia</th>
+                        <th scope="col">Ubicación</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Lugar</th>
+                        <th scope="col">Empresa</th>
+                        <th scope="col">Precio de Costo</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                {% if referencia %}
+                    <tbody class="align-middle">
+                        {% for dato in referencia %}
+                            <tr {% if dato.cantidad <= 2 %}class="alert alert-danger"{% endif %}>
+                                <td>{{ dato.numreferencia }}</td>
+                                <td>{{ dato.idmarcas }}</td>
+                                <td>{{ dato.nomreferencia.capitalize }}</td>
+                                <td>{{ dato.idubicacion }}</td>
+                                <td>{{ dato.cantidad }}</td>
+                                <td>{{ dato.idposicion }}</td>
+                                <td>{{ dato.idempresa }}</td>
+                                <td>$ {{ dato.preciocosto }}</td>
+                                <td>
+                                    <button class="btn btn-outline-success my-1" onclick="abrirModalEditar('{% url 'editar_Referencia' dato.id %}')" role="button">Editar</button>
+                                    {% if user.is_staff %}
+                                    |
+                                    <button class="btn btn-outline-danger my-1" onclick="abrirModalEliminar('{% url 'confirmElimReferencia' dato.id %}')" role="button">Eliminar</button>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                {% else %}
+                    <tbody>
+                        <td colspan='12'><strong>Busca algun dato para enlistar</strong></td>
+                    </tbody>
+                {% endif %}
+            </table>
+        </div>
+    </div>
+
+    <div class="modal fade" id="crear" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+
+    <div class="modal fade" id="editar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+
+    <div class="modal fade" id="eliminar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+
+{% endblock contenido %}

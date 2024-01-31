@@ -1,0 +1,19 @@
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <form action="{% url 'eliminarVentaDiaria' object.id %}"  method="POST">
+            <div class="modal-body">
+                {% csrf_token %}
+                <div class="col">
+                    {% csrf_token %}
+                    <h5 class="title text-center">Desea eliminar el registro?</h5>
+                    <div class="col text-center">
+                        <input type="submit" class="btn btn-outline-danger" value="confirmar">
+                        <button class="btn btn-outline-success" onclick="cerrarModalEliminar();">
+                            Cancelar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

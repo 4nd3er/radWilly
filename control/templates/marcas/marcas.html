@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block titulo %}
+    Marcas
+{% endblock titulo %}
+
+{% block contenido %}
+
+    {% load static %}
+
+    <div class="col-md my-4 py-2 text-center title mx-auto rounded"
+        style="border: 2px solid lightgray; color: gray; width: 97%;">
+        <h3>MARCAS</h3>
+    </div>
+
+    <div class="row mt-3 mb-3 container-fluid mx-auto" style="gap: 20px;">
+        <div class="col-md" style="border: 1px solid;border-radius: .5rem;">
+            {% include 'search.html' %}
+        </div>
+        <div class="col-md" style="border: 1px solid; border-top-right-radius: .5rem; border-radius: .5rem;">
+            <div class="row text-center mx-auto">
+                <div class="col-md col-sm">
+                    <button class="btn btn-outline-secondary my-5" style="border: 2px solid" onclick="abrirModalCrear('{% url 'crear_Marca' %}')" role="button">
+                        REGISTRAR <i class="bi bi-plus-circle"></i>
+                    </button>
+                </div>
+                <div class="col-md col-sm">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-outline-secondary my-5" style="border: 2px solid">EXPORTAR <i class="bi bi-file-earmark-arrow-down"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="mb-3 container-fluid rounded card border-0" style="height: 60vh;">
+        <div class="table-responsive">
+            <table class="table table-bordered" style="text-align: center;">
+                <thead class="table-secondary sticky-top">
+                    <tr>
+                        <th scope="col">Marca</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                {% if marca %}
+                    <tbody class="align-middle">
+                        {% for dato in marca %}
+                            <tr>
+                                <td>{{ dato.nommarca.capitalize }}</td>
+                                <td>
+                                    <button class="btn btn-outline-success my-1" onclick="abrirModalEditar('{% url 'editar_Marca' dato.id %}')" role="button">Editar</button>
+                                    {% if user.is_staff %}
+                                    |
+                                    <button class="btn btn-outline-danger my-1" onclick="abrirModalEliminar('{% url 'confirmElimMarca' dato.id %}')" role="button">Eliminar</button>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                {% else %}
+                    <tbody>
+                        <td colspan='5'>No hay datos registrados</td>
+                    </tbody>
+                {% endif %}
+            </table>
+        </div>
+    </div>
+
+    <div class="modal fade" id="crear" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+
+    <div class="modal fade" id="editar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+
+    <div class="modal fade" id="eliminar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+
+{% endblock contenido %}
