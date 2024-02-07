@@ -2,31 +2,25 @@
     <div class="row">
     {% csrf_token %}
         {% for campo in form %}
-            {% if campo.name == 'ventatanque' %}
-                <div class="col-12 mb-4">
+            {% if campo.name == 'idmarca' %}
+                <div class="col-6 mb-4">
                     <label class="form-label">{{ campo.label }}</label>
-                    {% comment %} <select class="form-select" name="{{ campo.name }}" value="{{ campo.value | default:''}}">
+                    <select class="form-select" name="{{ campo.name }}" value="{{ campo.value | default:''}}">
                         {% for select in campo %}
                             {{ select }}
                         {% endfor %}
-                    </select> {% endcomment %}
-                    <input class="form-control" name="{{ campo.name }}" value="{{ campo.value | default:''}}" list="referencias" placeholder="Dejar vacio si no aplica" />
-                    <datalist id="referencias">
-                        {% for select in campo %}
-                        {{ select }}
-                        {% endfor %}
-                    </datalist>
+                    </select>
                     <div id="errores{{campo.name}}">
-                        
+
                     </div>
                 </div>
             {% else %}
-                <div class="col-12 mb-4">
+                <div class="col-6 mb-4">
                     <label class="form-label">{{ campo.label }}</label>
                     <input
                         type="text"
                         id="{{campo.name}}"
-                        class="form-control {{ campo.name }}"
+                        class="form-control {{ campo.name }}" 
                         name="{{ campo.name }}"
                         aria-describedby="helpId"
                         placeholder="{{campo.label}}"

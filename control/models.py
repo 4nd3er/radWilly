@@ -168,7 +168,17 @@ class Posicion(models.Model):
 
     def __str__(self):
         return self.nomposicion.capitalize()
-    
+
+
+class Radiadores(models.Model):
+    idmarca = models.ForeignKey(Marcas, models.DO_NOTHING, db_column='idMarca')
+    referencia = models.CharField(max_length=255)
+    preciocosto = models.IntegerField(db_column='precioCosto')
+    precioventa = models.IntegerField(db_column='precioVenta')
+
+    class Meta:
+        managed = False
+        db_table = 'radiadores'
 
 
 class Referencia(models.Model):
@@ -190,7 +200,7 @@ class Referencia(models.Model):
 
 
 class Ubicacion(models.Model):
-    nomubicacion = models.CharField(db_column='nomUbicacion', max_length=100)  # Field name made lowercase.
+    nomubicacion = models.CharField(db_column='nomUbicacion', max_length=100)
 
     class Meta:
         managed = False

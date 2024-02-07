@@ -31,6 +31,17 @@ class mercanciaForm(forms.ModelForm):
             'idreferencia' : 'Nombre de la referencia',
         }
 
+class radiadorForm(forms.ModelForm):
+    
+    class Meta:
+        model = Radiadores
+        fields = '__all__'
+        labels = {
+            'referencia' : 'Nombre de referencia',
+            'preciocosto' : 'Precio de costo',
+            'precioventa' : 'Precio de venta',
+        }
+
 class referenciaForm(forms.ModelForm):
     
     class Meta:

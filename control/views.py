@@ -335,6 +335,107 @@ def eliminarMercancias(request, id):
 
 
 # ! Modulo de Referencias
+class Radiadores(ListView):
+    model = Radiadores
+    template_name = 'radiadores/radiadores.html'
+
+    def get_queryset(self):
+        buscar = self.request.GET.get('buscar')
+
+        if buscar:
+            query = self.model.objects.filter(
+                Q(idmarcas__nommarca__icontains = buscar) |
+                Q(nomreferencia__icontains = buscar) |
+                Q(numreferencia__icontains = buscar) |
+                Q(cantidad__icontains = buscar) |
+                Q(idubicacion__nomubicacion__icontains = buscar) |
+                Q(idposicion__nomposicion__icontains = buscar) |
+                Q(idempresa__nomempresa__icontains = buscar) |
+                Q(preciocosto__icontains = buscar)
+            ).distinct().order_by('id')
+        else:
+            query = 0
+        return query
+
+    def get_context_data(self, **kwargs):
+        contexto = {}
+        contexto["referencia"] = self.get_queryset()
+        contexto["marcas"] = Marcas.objects.all().order_by('nommarca')
+        contexto["posiciones"] = Posicion.objects.all().order_by('id')
+        return contexto
+
+    def get(self, request, *args, **kwargs):
+        if is_ajax(request=request):
+                return HttpResponse(serialize('json', self.get_context_data()), 'application/json')
+        else:
+            return render(request, self.template_name, {'referencia': self.get_queryset(), 'marcas': self.get_context_data()['marcas'], 'posiciones': self.get_context_data()['posiciones']})
+
+class crearRadiadores(CreateView):
+    model = Radiadores
+    template_name = 'radiadores/crear.html'
+    form_class = radiadorForm
+    success_url = reverse_lazy('referencia')
+
+    def post(self, request, *args, **kwargs):
+        if is_ajax(request=request):
+            form = self.form_class(request.POST)
+            if form.is_valid():
+                form.save()
+                mensaje = f'{self.model.__name__} registrado correctamente!'
+                error = 'no hay error'
+                response = JsonResponse({'mensaje': mensaje, 'error': error})
+                response.status_code = 201
+                return response
+            else:
+                mensaje = f'{self.model.__name__} no se pudo registrar'
+                error = form.errors
+                response = JsonResponse({'mensaje': mensaje, 'error': error})
+                response.status_code = 400
+                return response
+        else:
+            return redirect('referencia')
+
+class editarRadiadores(UpdateView):
+    model = Radiadores
+    template_name = 'radiadores/editar.html'
+    form_class = radiadorForm
+    success_url = reverse_lazy('referencia')
+
+    def post(self, request, *args, **kwargs):
+        if is_ajax(request=request):
+            form = self.form_class(request.POST, instance = self.get_object())
+            if form.is_valid():
+                form.save()
+                mensaje = f'{self.model.__name__} actualizado correctamente!'
+                error = 'no hay error'
+                response = JsonResponse({'mensaje': mensaje, 'error': error})
+                response.status_code = 201
+                return response
+            else:
+                mensaje = f'{self.model.__name__} no se pudo actualizar'
+                error = form.errors
+                response = JsonResponse({'mensaje': mensaje, 'error': error})
+                response.status_code = 400
+                return response
+        else:
+            redirect('referencia')
+
+class confirmarEliminarRadiadores(DeleteView):
+    model = Radiadores
+    template_name = 'radiadores/radiadores_confirm_delete.html'
+    success_url = reverse_lazy('referencia')
+
+    def post(self, request, *args, **kwargs):
+        return render(request, self.template_name)
+
+def eliminarRadiadores(request, id):
+    eliminar = Referencia.objects.get(id = id)
+    eliminar.delete()
+    return redirect('referencia')
+# ! Modulo de Referencias
+
+
+# ! Modulo de Referencias
 class Referencias(ListView):
     model = Referencia
     template_name = 'referencias/referencias.html'

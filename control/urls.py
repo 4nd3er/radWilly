@@ -36,6 +36,14 @@ urlpatterns = [
     # ! Modulo de Mercancias
 
     # ! Modulo de Referencias
+    path('radiador/', login_required(views.Radiadores.as_view(), login_url = 'inicio'), name="radiador"),
+    path('crear_Radiador/', login_required(views.crearRadiadores.as_view(), login_url = 'inicio'), name="crear_Radiador"),
+    path('editar_Radiador/<int:pk>', login_required(views.editarRadiadores.as_view(), login_url = 'inicio'), name="editar_Radiador"),
+    path('confirmElimRadiador/<int:pk>', login_required(views.confirmarEliminarRadiadores.as_view(), login_url = 'inicio'), name="confirmElimRadiador"),
+    path('eliminarRadiador/<int:id>', login_required(views.eliminarRadiadores), name="eliminarRadiador"),
+    # ! Modulo de Referencias
+    
+    # ! Modulo de Referencias
     path('referencia/', login_required(views.Referencias.as_view(), login_url = 'inicio'), name="referencia"),
     path('crear_Referencia/', login_required(views.crearReferencias.as_view(), login_url = 'inicio'), name="crear_Referencia"),
     path('editar_Referencia/<int:pk>', login_required(views.editarReferencias.as_view(), login_url = 'inicio'), name="editar_Referencia"),
