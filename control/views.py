@@ -261,9 +261,8 @@ class crearMercancias(CreateView):
         if is_ajax(request=request):
             form = self.form_class(request.POST)
             if form.is_valid():
-                referenciaForm = str(form.cleaned_data['idreferencia'])
-                partes = referenciaForm.split(' ', 3)[-1]
-                referencia = Referencia.objects.get(nomreferencia=partes)
+                referenciaForm = form.cleaned_data['idreferencia'].id
+                referencia = Referencia.objects.get(id=referenciaForm)
                 cantidadReferenciaForm = form.cleaned_data['cantidad']
                 referencia.cantidad += cantidadReferenciaForm
                 referencia.save()
@@ -292,9 +291,8 @@ class editarMercancias(UpdateView):
         if is_ajax(request=request):
             form = self.form_class(request.POST, instance = self.get_object())
             if form.is_valid():
-                referenciaForm = str(form.cleaned_data['idreferencia'])
-                partes = referenciaForm.split(' ', 3)[-1]
-                referencia = Referencia.objects.get(nomreferencia=partes)
+                referenciaForm = form.cleaned_data['idreferencia'].id
+                referencia = Referencia.objects.get(id=referenciaForm)
                 mercanciaSaved = self.model.objects.get(id= self.get_object().id).cantidad
                 mercanciaForm = int(form.cleaned_data['cantidad'])
                 if mercanciaSaved > mercanciaForm:
@@ -563,10 +561,9 @@ class crearVentasDiarias(CreateView):
         if is_ajax(request=request):
             form = self.form_class(request.POST)
             if form.is_valid():
-                referenciaForm = str(form.cleaned_data['ventatanque'])
-                partes = referenciaForm.split(' ', 3)[-1]
+                referenciaForm = form.cleaned_data['ventatanque'].id
                 if referenciaForm is not None:
-                    referencia = Referencia.objects.get(nomreferencia=partes)
+                    referencia = Referencia.objects.get(id=referenciaForm)
                     referencia.cantidad -= 1
                     referencia.save()
                 form.save()

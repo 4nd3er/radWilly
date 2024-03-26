@@ -196,7 +196,7 @@ class Referencia(models.Model):
         db_table = 'referencia'
     
     def __str__(self):
-        return f'Lado {self.idubicacion} {self.idmarcas} {self.nomreferencia.capitalize()}'
+        return f'{self.idmarcas} {self.nomreferencia.capitalize()} lado {self.idubicacion}'
 
 
 class Ubicacion(models.Model):
