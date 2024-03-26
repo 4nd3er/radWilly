@@ -44,9 +44,13 @@
                                     {% endif %}
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    {% comment %} <li><a class="menu" onclick="abrirModalEditar('{% url 'editar_usuario' user.id %}')" role="button">Editar perfil</a></li> {% endcomment %}
-                                    <li><a class="menu" href="{% url "interfaz" %}" role="button">Inicio</a></li>
-                                    <li><a class="menu" role="button">Editar perfil</a></li>
+                                    <li><a class="menu mb-1" href="{% url "interfaz" %}" role="button">Inicio</a></li>
+                                    <li><a class="menu mb-1" href="{% url "marca" %}" role="button">Marcas</a></li>
+                                    <li><a class="menu mb-1" href="{% url "mercancia" %}" role="button">Mercancia</a></li>
+                                    <li><a class="menu mb-1" href="{% url "gastoDiario" %}" role="button">Gastos Diarios</a></li>
+                                    <li><a class="menu mb-1" href="{% url "radiador" %}" role="button">Radiadores</a></li>
+                                    <li><a class="menu mb-1" href="{% url "referencia" %}" role="button">Referencias</a></li>
+                                    <li><a class="menu mb-1" href="{% url "ventaDiaria" %}" role="button">Ventas Diarias</a></li>
                                     <li><a class="menu" href="#">Cambiar contraseña</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="menu" href="{% url "logout" %}">Cerrar sesion</a></li>

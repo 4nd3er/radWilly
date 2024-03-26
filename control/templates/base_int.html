@@ -50,11 +50,6 @@
                                     {% endif %}
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    {% comment %} <li><a class="menu" onclick="abrirModalEditar('{% url 'editar_usuario' user.id %}')" role="button">Editar perfil</a></li>
-                                    <li><a class="menu" href="{% url 'cambio_contraseña' %}">Cambiar contraseña</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="menu" href="{% url 'logout' %}">Cerrar sesion</a></li> {% endcomment %}
-                                    <li><a class="menu" role="button">Editar perfil</a></li>
                                     <li><a class="menu" href="#">Cambiar contraseña</a></li>
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="menu" href="{% url "logout" %}">Cerrar sesion</a></li>

@@ -79,8 +79,9 @@ body {
 }
 
 .container-fluid .nav-item .dropdown-menu .menu:hover {
-    background: lightgray;
+    background: #999;
     letter-spacing: 2px;
+    color: #444;
 }
 
 .container-fluid .col-md a span {
