@@ -5,7 +5,7 @@
             {% if campo.name == 'idmarca' %}
                 <div class="col-6 mb-4">
                     <label class="form-label">{{ campo.label }}</label>
-                    <select class="form-select" name="{{ campo.name }}" value="{{ campo.value | default:''}}">
+                    <select class="form-select" style="width: 100%;" id="{{campo.name}}" name="{{ campo.name }}" value="{{ campo.value | default:''}}">
                         {% for select in campo %}
                             {{ select }}
                         {% endfor %}

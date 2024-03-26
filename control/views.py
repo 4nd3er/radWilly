@@ -344,14 +344,10 @@ class Radiadores(ListView):
 
         if buscar:
             query = self.model.objects.filter(
-                Q(idmarcas__nommarca__icontains = buscar) |
-                Q(nomreferencia__icontains = buscar) |
-                Q(numreferencia__icontains = buscar) |
-                Q(cantidad__icontains = buscar) |
-                Q(idubicacion__nomubicacion__icontains = buscar) |
-                Q(idposicion__nomposicion__icontains = buscar) |
-                Q(idempresa__nomempresa__icontains = buscar) |
-                Q(preciocosto__icontains = buscar)
+                Q(idmarca__nommarca__icontains = buscar) |
+                Q(referencia__icontains = buscar) |
+                Q(preciocosto__icontains = buscar) |
+                Q(precioventa__icontains = buscar)
             ).distinct().order_by('id')
         else:
             query = 0

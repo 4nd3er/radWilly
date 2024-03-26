@@ -5,11 +5,13 @@
             {% if campo.name == 'idreferencia' %}
                 <div class="col-12 mb-4">
                     <label class="form-label">{{ campo.label }}</label>
-                    <select class="form-select" id="{{ campo.name }}" name="{{ campo.name }}" value="{{ campo.value | default:''}}" data-live-search="true">
-                        {% for ref in campo %}
+                    <div>
+                        <select class="form-select" style="width: 100%;" id="{{ campo.name }}" name="{{ campo.name }}" value="{{ campo.value | default:''}}">
+                            {% for ref in campo %}
                             {{ ref }}
-                        {% endfor %}
-                    </select>
+                            {% endfor %}
+                        </select>
+                    </div>
                     <div id="errores{{campo.name}}">
 
                     </div>

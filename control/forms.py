@@ -86,16 +86,3 @@ class ventaDiariaForm(forms.ModelForm):
             'precioventa' : 'Precio de Venta',
             'ventatanque' : 'Venta de Tanque',
         }
-    
-    # def __init__(self, *args, **kwargs):
-    #     super().__init__(*args, **kwargs)
-
-    #     # Obtén las opciones del campo de elección
-    #     choices = self.fields['ventatanque'].choices
-
-    #     # Reemplaza la opción vacía por "No aplica"
-    #     new_choices = [(value, label) for value, label in choices if value is not None]
-    #     # new_choices = [(label, label) for label, label in choices]
-
-    #     # Establece las nuevas opciones en el campo de elección
-    #     self.fields['ventatanque'].choices = new_choices

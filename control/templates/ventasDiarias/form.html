@@ -5,17 +5,11 @@
             {% if campo.name == 'ventatanque' %}
                 <div class="col-12 mb-4">
                     <label class="form-label">{{ campo.label }}</label>
-                    {% comment %} <select class="form-select" name="{{ campo.name }}" value="{{ campo.value | default:''}}">
+                    <select id="{{campo.name}}" class="form-select" style="width: 100%;" name="{{ campo.name }}" value="{{ campo.value | default:''}}">
                         {% for select in campo %}
                             {{ select }}
                         {% endfor %}
-                    </select> {% endcomment %}
-                    <input class="form-control" name="{{ campo.name }}" value="{{ campo.value | default:''}}" list="referencias" placeholder="Dejar vacio si no aplica" />
-                    <datalist id="referencias">
-                        {% for select in campo %}
-                        {{ select }}
-                        {% endfor %}
-                    </datalist>
+                    </select>
                     <div id="errores{{campo.name}}">
                         
                     </div>
