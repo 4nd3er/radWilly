@@ -134,7 +134,7 @@ function notificacionError(mensaje) {
 }
 
 const buscarMarcaGet = (value) => {
-    $('#buscarMarca').val(`${value}`);
+    $('.buscarMarca').val(`${value}`);
 }
 
 // ----------------------------AJAX------------------------------------

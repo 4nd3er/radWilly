@@ -332,7 +332,7 @@ def eliminarMercancias(request, id):
 # ! Modulo de Mercancia
 
 
-# ! Modulo de Referencias
+# ! Modulo de Radiadores
 class Radiadores(ListView):
     model = Radiadores
     template_name = 'radiadores/radiadores.html'
@@ -426,7 +426,7 @@ def eliminarRadiadores(request, id):
     eliminar = Referencia.objects.get(id = id)
     eliminar.delete()
     return redirect('referencia')
-# ! Modulo de Referencias
+# ! Modulo de Radiadores
 
 
 # ! Modulo de Referencias

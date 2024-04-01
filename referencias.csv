@@ -1,0 +1,464 @@
+1,Cruze 1.8,4,4,5148,2,1,1,30000
+2,Cruze 1.8 / Orlando,4,3,6475,3,1,1,35000
+3,Captiva,4,4,2174,4,1,1,30000
+4,Captiva Mecanica con tubo,4,3,4415,3,1,1,47000
+5,Captiva Mecanica sin tubo,4,3,2921,3,1,1,42000
+6,Captiva Automatica sin tubo,4,3,4820,3,1,1,43000
+7,Captiva Automatica con tubo,4,3,4531,4,1,1,42000
+8,Esteem / Sedan automovil 96-2000,4,1,1482,3,1,1,24000
+9,Esteem / Sedan automovil 96-2000,4,2,1483,3,1,1,23000
+10,Sail,4,4,2372,6,1,1,30000
+11,Sail Tubo,4,3,2373,6,1,1,30000
+12,Captiva 2019 lado tubo automatica,4,3,6948,3,1,1,48000
+13,Cabstar - TK55 (Boquilla de llenado),24,1,2786,3,2,1,40000
+14,Cabstar - TK55,24,2,2838,2,2,1,26000
+15,D21 - Pathfinder 87-95 (angosto orejas),24,1,1430,5,2,1,23000
+16,D21 - Pathfinder 87-95 (ancho orejas),24,1,948,2,2,1,23000
+17,D22 3.0 - Frontier 3.0 Diesel ancho (5.7cm),24,1,1441,4,2,1,29000
+18,D22 3.0 - Frontier 3.0 / Pathfinder 97-04 (4.7cm),24,1,1435,5,2,1,27000
+19,D22 2.5 - Frontier 2.5 Diesel Ancho 4.6 cm,24,1,1444,10,2,1,31000
+20,D22 3.0 - Frontier 3.0 - NP300 (angosto 3.7cm) gasolina,24,1,4475,5,2,1,27000
+21,Sentra B14 - B13 angosto 3.5cm (G.L.P.),24,2,2182,4,2,1,23000
+22,Sentra B13 ancho (Boquilla lado conductor),24,1,2224,2,2,1,32000
+23,Sentra B13 - B14 ancho (Gollete angosto),24,2,1432,4,2,1,28000
+24,Sentra B13 angosto (Gollete lado conductor),24,1,1433,3,2,1,27000
+25,Sentra B14 angosto (gollete junto a boquilla lado pasajero),24,1,1431,2,2,1,25000
+26,Sentra B14 ancho (gollete delgado) L.P.,24,1,2994,3,2,1,30000
+27,Sentra B16 07-12,24,1,2995,2,2,1,25000
+28,X-Trail Diesel ancho (g. ancho extremo L.P.),24,1,1439,3,2,1,30000
+29,X-Trail Gasolina ancho (manguera ancho centro Lado C.),24,1,2387,4,2,1,31000
+30,X-Trail Gasolina angosto (manguera ancho centro Lado C.),24,1,1442,4,2,1,31000
+31,X-Trail Gasolina angosto 2016-2018 (Boquilla de llenado alta),24,1,4793,2,2,1,42000
+32,X-Trail Tapa codo angosto codo (corto),24,1,2953,3,2,1,37000
+33,X-Trail ancho (manguera ancha extremo) lado conductor,24,1,1434,2,2,1,32000
+34,D22 2.5 / Frontier 2.5 Diesel Angosto (3.5 x 71.3cm) (gollete lado izquierdo) (boquilla lado derecho),24,1,7277,5,2,1,28000
+35,Allegro largo 71.5cm / Ford laser,21,1,1396,10,3,1,22000
+36,Allegro largo 71.5cm / Ford laser,21,2,1397,5,3,1,28000
+37,Allegro corto 71.5cm / Ford laser,21,1,1398,10,3,1,30000
+38,Allegro corto 71.5cm / Ford laser,21,2,4474,5,3,1,32000
+39,2 (largo 58 x 4.6cm),21,1,1419,10,3,1,25000
+40,2 Mecanico (largo 58 x 4.6cm),21,2,1420,4,3,1,24000
+41,2 Sutomatico (largo 58 x 4.6cm),21,2,1421,2,3,1,25600
+42,6 Mecanico sin tubo,21,1,1415,2,3,1,31000
+43,6 Mecanico,21,2,1416,4,3,1,36000
+44,6 Automatico con tubo,21,1,1401,2,3,1,34000
+45,6 Automatico,21,2,1402,2,3,1,39500
+46,B2200 largo 65.8cm,21,1,1791,4,3,1,31000
+47,B2200 largo 65.8cm,21,2,1812,3,3,1,31000
+48,B2600 / BT50 / B2200 / Ranger corto 64.7cm,21,1,1403,5,3,1,28000
+49,B2600 / BT50 / B2200 / Ranger corto 64.7cm,21,2,1404,4,3,1,35000
+50,BT50 Diesel / B2600 ancho largo 67 x 5cm,21,1,2166,7,3,1,32000
+51,BT50 Diesel / B2600 ancho largo 67 x 5cm,21,2,4791,4,3,1,29000
+52,CX7,21,1,1417,1,3,1,33800
+53,CX7,21,2,1418,0,3,1,0
+54,2 (58 x 3.1cm) (Ref. 1530 CIA),21,1,6785,3,3,1,43000
+55,2 (54.3 x 3.1cm) (Ref. 1528 CIA),21,1,0,3,3,2,31000
+56,BT50 14 sin boquilla Diesel (Ref. 1527 CIA),21,1,0,1,3,2,34000
+57,H100 - new Porter,17,1,0,2,4,2,0
+58,H100 - new Porter (Gollete en codo),17,2,1920,3,4,1,50700
+59,H100 Proter,17,1,0,2,4,2,0
+60,H100 (59.2cm),17,1,0,1,4,2,0
+61,Getz,17,1,1388,6,4,1,27000
+62,Getz,17,2,1389,5,4,1,25000
+63,Accent Gyro largo (3.5cm),17,1,1356,4,4,1,28000
+64,Accent Gyro largo (4.4cm),17,2,2194,3,4,1,31000
+65,Accent 98 (corto 60.5cm) angosto,17,1,1347,4,4,1,24000
+66,Accent 98 (corto 60.5cm) angosto,17,2,1348,6,4,1,30000
+67,Accent 98 (largo 62.5cm) JAC angosto,17,1,1349,4,4,1,22000
+68,Accent 98 (largo 62.5cm) ancho JAC largo,17,2,2989,4,4,1,32000
+69,Accent 98 (largo 62.5cm) angosto JAC largo,17,2,1350,5,4,1,30000
+70,Ancho 1.5,12,1,2388,2,5,1,30000
+71,Ancho 1.3,12,1,1800,2,5,1,32800
+72,Panda (Boquilla encima gollete),12,1,3006,2,5,1,45000
+73,automovil (tanque pequeño),1,1,4804,0,5,1,16000
+74,F3 1.5,1,1,4803,2,5,1,25000
+75,F3 1.5,1,2,4805,2,5,1,40000
+76,1.3 Pera,27,4,2110,2,5,1,24000
+77,1.3 2 mangueras,27,3,1890,5,5,1,15000
+78,Palio 98 - Siena sellado ancho,9,4,2984,2,5,1,18000
+79,Palio 98 - Siena mangueras ancho,9,3,1307,2,5,1,20000
+80,Palio fire - Siena 2023 angosto sellado,9,4,295,3,5,1,18000
+81,Palio fire - Siena 2023 angosto mangueras,9,3,1306,4,5,1,20000
+82,Fabia,27,4,3788,1,5,1,16000
+83,Fabia / Volkswagen new polo (golletes),27,3,3787,1,5,1,22000
+84,4300 (caregato) tanque alto,18,4,2790,2,6,1,174000
+85,4300 (caregato) tanque bajito,18,3,2791,3,6,1,135000
+86,7600 Izquierdo y Derecho,18,4,1803,3,6,1,92000
+87,7600 / Workstar Izquierdo y Derecho,18,4,2789,4,6,1,141000
+88,Benz Actros 2013,22,1,4807,2,6,1,120000
+89,Columbia,11,4,3380,1,6,1,157000
+90,Columbia,11,3,1826,1,6,1,152000
+91,9400 plus (tanque largo 68.3cm),18,3,2164,2,6,1,68000
+92,9400 plus (tanque largo 68.3cm),18,4,2777,2,6,1,62000
+93,9400 plus (tanque corto 64.3cm),18,3,4891,1,6,1,110000
+94,9400 plus (tanque corto 64.3cm),18,4,4892,1,6,1,110000
+95,Spark cronos (codo 2007),4,4,1328,15,7,1,15000
+96,Spark cronos (Gollete recto 2007),4,3,1327,15,7,1,15000
+97,Spark GT (lado pera),4,4,2966,7,7,1,27000
+98,Spark GT,4,3,2967,18,7,1,24000
+99,Aveo,4,4,1296,7,7,1,25000
+100,Aveo,4,3,1295,12,7,1,25000
+101,Aveo GT emotion,4,4,1298,6,7,1,28000
+102,Aveo GT emotion,4,3,1297,7,7,1,28000
+103,Mahindra,20,3,0,0,8,2,0
+104,Gol con aire ancho 1.8 1.6 48cm,31,1,1507,2,8,1,25300
+105,Gol con tubo ancho 1.8 1.6,31,2,4026,2,8,1,27500
+106,Gol sin aire angosto,31,1,4905,2,8,1,18500
+107,Gol 2009 / Fox polo tubo auxiliar / Fox cross,31,4,3557,1,8,1,20000
+108,Gol 2009 / Fox polo Gollete pera,31,3,3556,0,8,1,24000
+109,Jetta / Golf IV / Audi A3 Ancho,31,3,7441,5,8,1,27000
+110,Vento Golf A/A / manhatan,31,3,1501,3,8,1,18000
+111,Vento Golf A/A / manhatan Golletes,31,4,1502,4,8,1,17000
+112,Amarok,31,3,3720,2,8,1,39000
+113,3008,25,1,5250,1,8,1,18000
+114,Peugeot,25,1,0,0,8,2,0
+115,Korando ancho sin tapa,28,1,4794,0,8,1,0
+116,Korando 1.3,28,4,6062,2,8,1,36000
+117,Korando 1.3,28,3,6061,1,8,1,35000
+118,Actyon Kiron,28,3,2972,2,8,1,54000
+119,Benz Sprinter 515 (tubo auxiliar),22,4,4038,5,8,1,33000
+120,Benz Sprinter 515 (lado grifo) / Volskwagen Crafter,22,3,4037,6,8,1,30000
+121,Intercooler sprinter 515,22,4,5781,5,8,1,63000
+122,Intercooler sprinter 515,22,3,6703,6,8,1,63000
+123,206 Tubo de media (incluye acople),25,1,1454,1,8,1,23000
+124,206,25,2,6393,3,8,1,20000
+125,Jetta / Golf IV / Audi A3 golletes,31,3,1500,4,8,1,24000
+126,Jetta / Golf IV / Audi A3 sellado,31,4,3388,8,8,1,31000
+127,Van pass (sin tapa),3,1,0,2,9,2,34000
+128,Van pass,3,2,0,2,9,2,36000
+129,Tiggo 2013 (doble retorno),3,1,5218,3,9,1,34000
+130,Tiggo 2013 (doble retorno),3,1,0,3,9,2,35000
+131,Yoki - yoyo - y380 (mang. llenado junto boquilla),3,1,2792,5,9,1,33000
+132,Yoki - yoyo - y380,3,2,3999,3,9,1,29000
+133,Yoki (sin boquilla de llenado),3,1,5836,5,9,1,37000
+134,Minyi (cuello alto),14,1,3657,4,9,1,25000
+135,Minyi,14,2,7044,3,9,1,35500
+136,Hafei - Zhongy carry,14,1,1806,2,9,1,22000
+137,Hafei - Zhongy carry,14,2,2103,4,9,1,20000
+138,DFSK - Chana largo (Boquilla llenado codo),8,1,5195,2,9,1,26000
+139,DFSK - Chana largo,8,2,5196,3,9,1,18000
+140,Chana corto,2,1,1292,7,9,1,18000
+141,Chana corto,2,2,1293,6,9,1,16000
+142,QQ (Codo angosto),3,4,4239,6,9,1,25800
+143,QQ (doble golletes),3,3,6421,4,9,1,21000
+144,QQ (manguera recta) un solo gollete,3,3,3660,5,9,1,25000
+145,Chana largo,7,1,1554,6,9,1,33000
+146,Chana largo sin aire,7,2,0,4,9,2,0
+147,Chana largo con aire,7,2,1555,4,9,1,30000
+148,Changan (mide 39.4cm),35,1,2959,3,9,1,31000
+149,Changan largo (64 x 4cm),35,1,0,0,9,2,0
+150,Nice superior / Xcross,3,1,0,1,9,2,38000
+151,Nice superior / Xcross,3,2,1802,1,9,1,31000
+152,Benni (Rad. sin boquilla),3,1,4809,3,9,1,14000
+153,Grand Vitara SZ sin tapa,29,1,1485,4,10,1,30000
+154,Grand Vitara SZ Mecanico,29,2,0,3,10,2,35000
+155,Grand Vitara SZ Automatico,29,2,0,3,10,2,35000
+156,SX4,29,1,4172,2,10,1,33000
+157,Alto,29,1,2787,5,10,1,23000
+158,Alto,29,2,4240,1,10,1,25000
+159,Alto 800,29,1,6369,4,10,1,0
+160,Alto 800 angosto,29,2,0,3,10,2,0
+161,Celerio 1.0 1.8,29,1,0,3,10,2,28000
+162,Starex,17,4,0,3,11,2,0
+163,Tiburon - Elantra corruado 67.3 x 3.3,17,1,0,0,11,2,0
+164,Accent giro largo,17,1,0,0,11,2,26000
+165,Accent giro largo,17,2,0,0,11,2,0
+166,Santa fe ,17,1,0,2,11,2,0
+167,Santa fe ,17,1,0,0,11,2,0
+168,Santa fe mod. 2010 - 2014 Boquilla llenado,17,4,4811,0,11,1,29000
+169,Vera Cruz,17,1,2161,2,11,1,36000
+170,Grand Starex - H1,17,1,2177,5,11,1,35000
+171,Grand Starex - H1,17,2,4006,3,11,1,36000
+172,Accent Vision,17,1,1345,9,11,1,33000
+173,Accent Vision,17,2,1346,5,11,1,30000
+174,HD 65 - HD 72 - County - Kia combie,17,1,2180,0,11,1,35000
+175,HD 65 - HD 72 - County - Kia combie,17,2,2181,2,11,1,26000
+176,Elantra 96-00 68.9 / Tiburon / Avante largo,17,1,2992,2,11,1,30400
+177,Twingo II con A/A codo manquera (gollete),26,4,1467,4,12,1,35000
+178,Twingo II con A/A sellado,26,3,1466,2,12,1,25000
+179,Twingo II sin A/A codo manquera,26,4,1463,3,12,1,26000
+180,Twingo II sin A/A sellado,26,3,1462,2,12,1,18000
+181,Koleos,26,1,1565,3,12,1,30000
+182,Koleos Diesel (manguera centro),26,2,2977,2,12,1,24000
+183,Koleos Gasolina (manguera lado C.),26,2,2978,2,12,1,28000
+184,Journey,32,4,2983,3,12,1,23000
+185,Journey,32,3,4463,2,12,1,27000
+186,Escala,26,1,3593,2,12,1,33000
+187,Escala,26,2,0,2,12,2,33000
+188,Fluence,26,1,0,0,12,2,0
+189,Fluence Tubo,26,4,5779,3,12,1,24000
+190,Fluence,26,2,5778,2,12,1,21000
+191,Swift 1.3,4,1,0,3,13,2,23000
+192,Swift 1.3,4,2,4001,3,13,1,14800
+193,Swift 1.0,4,1,1805,4,13,1,17200
+194,Alto,4,1,0,0,13,2,22000
+195,Alto - Wagon R,4,1,1669,3,13,1,19000
+196,Alto,4,2,2098,1,13,1,20000
+197,Van N300 Wuling Corto,4,1,0,1,13,2,0
+198,Van N300 Wuling,4,2,0,0,13,2,0
+199,N200 (Sin Tapa),4,1,4814,1,13,1,12000
+200,N200,4,2,4000,1,13,1,15000
+201,Clio I sin aire (Gollete - Pibote largo),26,3,1461,6,14,1,24000
+202,Megane - Kangoo sin aire (Golletes),26,3,1470,0,14,1,22000
+203,Megane - Kangoo sin aire (Sellado),26,4,1471,3,14,1,18000
+204,Logan - Sandero 2016 / Duster 2017 Ancho 4cm,26,3,4011,4,14,1,27000
+205,Logan - Sandero 2016 / Duster 2017 con tubo Ancho 4cm,26,4,4012,6,14,1,24000
+206,Logan - Sandero 2015 (Gollete Inclinado),26,3,2996,4,14,1,21000
+207,Laguna (Golletes),26,3,4010,1,14,1,31000
+208,Sandero Stepway - Kangoo con aire (lado man.),26,3,2187,3,14,1,27000
+209,Sandero Stepway - Kangoo con aire (lado sellado),26,4,2186,3,14,1,25000
+210,Duster (Codo Ancho) 12-16,26,4,2167,2,14,1,21000
+211,Duster (Gollete Inferior Ancho) 12 - 16,26,3,2168,2,14,1,21000
+212,Megane - Scenic con Aire (sellado),26,4,1458,0,14,1,16000
+213,Megane - Scenic con Aire (Golletes),26,3,1457,0,14,1,18000
+214,Logan - Sandero 2016 / Duster 2017 Angosto 3.2cm,26,3,0,2,14,2,24000
+215,Logan - Sandero 2016 / Duster 2017 Angosto 3.2cm,26,4,0,3,14,2,22000
+216,Clio II Angosto,26,3,1459,7,15,1,23000
+217,Clio II Angosto,26,4,1460,2,15,1,22000
+218,Clio II Ancho,26,3,1464,7,15,1,23000
+219,Clio II Ancho sellado,26,4,1465,7,15,1,20000
+220,Megane II (mangueras),26,3,1468,3,15,1,31000
+221,Megane II (manguera auxiliar),26,4,1469,2,15,1,30500
+222,Ductro 500 (Sin Tubo),15,1,1506,3,16,1,74000
+223,Ductro 500 (Con Tubo),15,1,2974,3,16,1,70000
+224,Ductro 500,15,2,1568,2,16,1,72000
+225,Ductro 500 (Con Tapa),15,1,2159,2,16,1,54000
+226,Ductro 500 (Sin Tapa),15,1,1761,2,16,1,52000
+227,Ductro 500 (Rad. con y sin tapa),15,2,3381,3,16,1,46000
+228,300 616 modelo 2014 (sin boquilla),15,1,3717,2,16,1,35000
+229,300 616 modelo 2014,15,2,4978,4,16,1,77500
+230,700,15,1,4153,1,16,1,75000
+231,700,15,2,4154,1,16,1,110000
+232,3 Modelo 2006,21,4,1408,6,17,1,24000
+233,3 Modelo 2006 con retorno y grifo,21,3,1407,5,17,1,25000
+234,3 modelo 2010,21,4,0,3,17,2,0
+235,3 modelo 2010 (nuevo) (retorno y grifo),21,3,3382,4,17,1,26000
+236,3 modelo 2014,21,1,0,2,17,2,0
+237,3 modelo 2014,21,2,0,2,17,2,0
+238, 323 Inytection Ancho,21,1,2104,5,17,1,25000
+239, 323 Inytection Ancho,21,2,2105,4,17,1,27000
+240, 323 Inytection Angosto,21,1,1399,10,17,1,26000
+241, 323 Inytection Angosto,21,2,1400,4,17,1,24000
+242,626 matsury - milenio Mecanico corto (34.6 x 5cm),21,3,1393,3,17,1,20000
+243,626 matsury - milenio Mecanico corto (34.6 x 5cm) (lado con tapa),21,4,1394,4,17,1,22000
+244,626 matsury - milenio Automatico corto (34.6 x 5cm),21,4,1395,3,17,1,24000
+245,626 matsury - milenio Automatico largo (34.6 x 5cm),21,3,1411,7,17,1,19000
+246,Demio 2 pibotes,21,1,0,3,17,2,20000
+247,Demio 1 pibote,21,1,0,1,17,2,0
+248,Demio,21,2,1410,4,17,1,26000
+249,Corsa - Chevy gasolina,4,4,1326,12,18,1,15000
+250,Corsa - Chevy gasolina,4,3,1325,12,18,1,15000
+251,Corsa evolution,4,4,1453,3,18,1,27000
+252,Corsa evolution,4,3,1452,5,18,1,26000
+253,Corsa evolution (Salida),4,4,4268,3,18,1,0
+254,Jimny,4,1,1484,4,18,1,23000
+255,Luv D-max,4,1,1376,4,19,1,32000
+256,Luv D-max,4,2,1377,4,19,1,30000
+257,Luv D-max 2014 (caranueva) (67.9 x 4.7cm),4,1,4039,3,19,1,35000
+258,Luv D-max 2014 (caranueva) (67.9 x 4.7cm),4,2,0,2,19,2,33000
+259,Luv D-max RT 50 (boquilla de llenado en rosca) (65.6 x 4.7 cm),4,1,7279,2,19,1,38000
+260,Luv D-max RT 50 (65.6),4,2,0,0,19,2,0
+261,Luv D-max Automatico,4,2,4966,0,19,1,0
+262,March,24,1,0,2,20,2,0
+263,Navara Diesel Ancho (magn. lado cond.),24,1,2185,2,20,1,34000
+264,Navara Diesel Ancho (magn. lado pasaj.),24,1,2184,5,20,1,30000
+265,Navara Angosto (magn. lado conductor),24,1,1451,4,20,1,26000
+266,Urvan con tapa 3.0,24,1,1445,2,20,1,22000
+267,Urvan 3.0 (con tapa),24,2,1446,1,20,1,19000
+268,Tiida largo 62.5cm,24,1,1443,5,20,1,24000
+269,Tiida Corto,24,1,1448,3,20,1,27000
+270,Tiida Corto,24,2,5789,2,20,1,29000
+271,Urvan 3.0 2013 sin tapa,24,1,3589,4,20,1,23000
+272,Urvan 3.0 2013 sin tapa,24,2,4790,3,20,1,24000
+273,Qashqai ancho (Doble gollete),24,3,5194,3,20,1,24000
+274,March - Versa,24,4,3588,4,21,1,30000
+275,March - Versa,24,3,2973,1,21,1,27000
+276,Sportero,23,3,0,3,21,2,52000
+277,Sportero (gollete recto),23,4,1425,3,21,1,32000
+278,Sportero ( gollete codo),23,4,1426,3,21,1,32000
+279,Nativa - montero sport,23,1,1429,4,21,1,32000
+280,Lancer largo 1.6,23,1,0,0,21,2,0
+281,Lancer corto,23,1,0,0,21,2,0
+282,Subaru Impreza 08-12 / Forester / Legacy,23,1,1476,2,21,1,14000
+283,Subaru Impreza 08-12 / Forester / Legacy,23,2,4017,1,21,1,0
+284,Outlander 07-13 (codo),23,4,3555,2,21,1,35000
+285,Outlander 07-13 - Lancer,23,3,6067,3,21,1,28000
+286,Canter sin tapa,23,1,1427,6,21,1,27000
+287,Canter,23,2,1428,2,21,1,36000
+288,Outlander 14,23,1,6063,2,21,1,38500
+289,Lancer 02-7 / Outlander / Touring,23,1,2941,3,21,1,26000
+290,Edge limited 07-13,10,4,2986,1,22,1,30000
+291,Ecosport - Fiesta Super Charger (Sellado),10,4,651,3,22,1,20000
+292,Ecosport - Fiesta Super Charger (Golletes),10,3,1814,2,22,1,23000
+293,Ecosport Automatico / Fiesta Automatico (Sellado),10,4,2375,4,22,1,23000
+294,Ecosport Automatico / Fiesta Automatico (Golletes),10,3,2376,6,22,1,24000
+295,Ecosport Titanium 09-15 (modelo nuevo) sin tapa / Fiesta,10,1,2927,3,22,1,27000
+296,Ecosport Titanium 09-15 (modelo nuevo) / Fiesta,10,2,2928,2,22,1,30000
+297,Fusion,10,4,0,1,22,2,0
+298,Fusion,10,3,0,0,22,2,33000
+299,Escape 01-08,10,4,1413,3,22,1,30000
+300,Escape 01-08,10,3,1412,3,22,1,0
+301,150 XLT 2013,10,3,5946,2,22,1,0
+302,Fiesta 95 (gollete sup. grifo),10,3,0,0,22,2,0
+303,Fiesta 1.6 (Sellado tubo),10,4,0,0,22,2,0
+304,Fiesta 1.6 (Golletes),10,3,0,0,22,2,0
+305,Explorer 98 / Esport Trac 05 (boquilla llenado auto.),10,3,1311,2,22,1,54000
+306,Explorer 98 / Esport Trac 05,10,4,1312,2,22,1,39000
+307,Fiesta 09 / 15 Titanium (mod. nuevo) gollete recto pasajero),10,2,0,3,22,2,37000
+308,Focus titanium,10,3,6575,3,22,1,25000
+309,Focus titanium,10,4,6576,3,22,1,24000
+310,Escape 08-12 (Pibote salido version americana),10,3,2926,1,22,1,37000
+311,Escape 08-12 (Pibote salido version americana),10,4,2925,2,22,1,32000
+312,Explorer 95-97 Aventura Angosto Derecho,10,4,1573,0,22,1,48000
+313,150 F150 / 350,10,3,7388,2,22,1,35000
+314,150 F150 / 350 (boquilla de llenado),10,4,7389,2,22,1,40000
+315,Bronco / F150 / F350 8 Cilindros Automatico (boquilla de llenado),10,3,2327,3,22,1,30000
+316,Bronco / F150 / F350 8 Cilindros,10,4,1308,2,22,1,34000
+317,Bronco / F150 / F350 8 Cilindros Automatico (boquilla de llenado) izquierdo,10,3,2327,0,22,1,0
+318,Bronco / F150 / F350 8 Cilindros Derecho,10,4,1308,0,22,1,0
+319,Tracker - Sonic Angosto,4,3,3551,8,23,1,30000
+320,Tracker - Sonic Ancho,4,3,3716,5,23,1,28000
+321,Tracker - Sonic Mecanico Ancho (lado enfriador),4,4,3552,8,23,1,41000
+322,Tracker - Sonic Automatico Ancho (lado enfriador),4,4,4459,3,23,1,46000
+323,Sprinter 413 (tanque grande),22,3,1422,0,24,1,270000
+324,Matiz - Chev. Spark 7.24 2005 (Gollete codo),5,4,1504,4,24,1,18000
+325,Matiz - Chev. Spark 7.24 2005 (mang. recta),5,4,2923,2,24,1,18000
+326,Matiz - Chev. Spark 7.24 2005 (Gollete recto),5,3,1330,6,24,1,18000
+327,Nubira 99,5,4,1303,2,24,1,18000
+328,Nubira 99,5,3,1304,2,24,1,25000
+329,Lanos angosto mecanico,5,3,3228,2,24,1,23000
+330,Lanos,5,4,1302,4,24,1,19000
+331,Cielo - Racer Ancho (lado pera),5,3,1300,3,24,1,27000
+332,Cielo - Racer Ancho,5,4,1299,2,24,1,20000
+333,Cielo - Racer Angosto,5,3,7132,1,24,1,18000
+334,Cielo - Racer Angosto,5,4,2374,3,24,1,23000
+335,Tico corto,5,1,0,2,25,2,0
+336,CRV corto ancho,16,1,0,2,25,2,0
+337,CRV largo ancho,16,1,0,1,25,2,0
+338,CRV 2.4 pilot delgado,16,1,0,0,25,2,0
+339,Civic,16,1,0,0,25,2,0
+340,Wingle 5 DLS 2.0 2017 (G.L.P) Diesel,13,1,6748,4,25,1,36000
+341,Wingle 5 2.4 (Gollete lado c.) ~ Luv D-Max,13,1,1807,7,25,1,30000
+342,Hover / Haval 5 (Ancho 5.2cm),13,1,3822,5,25,1,35000
+343,Haval H6 (Angosto 3.8cm),13,1,4979,4,25,1,25000
+344,Terios sin tubo,6,1,1305,7,25,1,30000
+345,Terios con tubo,6,1,6384,3,25,1,30000
+346,Sirion,6,1,2982,3,25,1,23000
+347,Swift mod. 2013 1.2 - 1.4 - 1.6 (modelo nuevo),29,1,0,3,25,2,24800
+348,Terios OkII,6,1,6386,4,25,1,28000
+349,Optra,4,1,1331,9,26,1,25000
+350,Optra Mecanico,4,2,1336,6,26,1,36000
+351,Optra Automatico,4,2,2979,4,26,1,38000
+352,NPR (mod. nuevo) - NQR Tapa lado pasajero,4,1,0,1,26,2,34000
+353,NPR (mod. nuevo) - NQR (Gollete lado C.),4,1,1508,2,26,1,44000
+354,NPR (mod. nuevo) - NQR (FRR gollete y tapa lado C.),4,1,5821,2,26,1,42000
+355,NPR (mod. nuevo) - NQR,4,2,1563,6,26,1,42000
+356,NKR - NHR - NNR 3 (boquilla lado derecho),4,1,2157,2,26,1,40000
+357,NKR - NHR - NNR 3 (boquilla junto gollete lado izq.),4,1,2158,4,26,1,37000
+358,NKR - NHR - NNR 3,4,2,2922,4,26,1,32000
+359,FTR - FUR,4,1,2,0,26,1,110000
+360,Vitara 5 Puertas,4,1,0,0,26,2,0
+361,Vitara 3 Puertas,4,1,0,0,26,2,23500
+362,Vitara 3 Puertas,4,2,6392,0,26,1,24000
+363,Grand Vitara 5 Puertas (largo 62 cm),4,1,0,0,26,2,0
+364,Grand Vitara 3 Puertas (lomo plano) 1.6,4,1,1566,3,26,1,18000
+365,Grand Vitara XL5 Puertas,4,1,1478,3,26,1,23000
+366,Grand Vitara XL5 Puertas,4,2,6383,0,26,1,0
+367,Grand Vitara Automatico (3 y 5 Puertas),4,2,0,0,26,2,0
+368,Grand Vitara Mecanico (3 y 5 Puertas),4,2,0,0,26,2,0
+369,Pride - Ford Festiva ancho,19,1,0,4,27,2,18000
+370,Pride - Ford Festiva Mecanico ancho,19,2,2102,2,27,1,17000
+371,Pride - Ford Festiva Automatico,19,2,0,1,27,2,17000
+372,Picanto Morning (Boquilla Alta) Taxi,19,1,1384,5,27,1,23000
+373,Picanto Morning (Gollete Inclinado) Taxi,19,2,1385,9,27,1,20000
+374,Picanto Morning (Boquilla Baja) Particular,19,1,1386,9,27,1,22000
+375,Picanto Morning Particular,19,2,1387,4,27,1,20700
+376,Rio 2005 - Stylus cinco - Cinco,19,1,1378,7,27,1,25000
+377,Rio 2005 - Stylus cinco - Cinco,19,2,1378,5,27,1,27000
+378,Rio Xcite - Sephia,19,1,1390,7,27,1,35000
+379,Rio Xcite - Sephia (Centro Enfocador 11cm),19,2,1391,5,27,1,31000
+380,Rio Xcite - Sephia (Centro Enfocador 7.5cm),19,2,4801,3,27,1,22000
+381,Picanto ION Ancho (Sin tapa),19,4,2779,9,27,1,22000
+382,Picanto ION Ancho (Con tapa),19,3,2780,19,27,1,27000
+383,Picanto ION modelo 2017 / 20 (Sin tapa),19,4,6783,8,27,1,27000
+384,Picanto ION modelo 2017 / 20 (Con tapa),19,3,6782,7,27,1,29000
+385,Sorento Diesel 04 sin tapa,19,1,0,5,27,2,0
+386,Sorento 3.3/3.8 largo con Boquilla,19,4,0,1,27,2,0
+387,Cerato ciclon ancho,19,1,0,1,27,2,0
+388,Cerato Forte,19,4,4191,5,27,1,22000
+389,Cerato Forte (con boquilla de llenado),19,3,0,2,27,2,0
+390,Carens rondo Gasolina,19,4,0,2,27,2,23000
+391,Carens rondo Gasolina (Boquilla De Llenado),19,3,0,1,27,2,0
+392,Carens (69.1cm),19,1,0,1,27,2,0
+393,Carens (manguera inclinada) 69.1cm,19,2,0,4,27,2,34300
+394,Carens (manguera recta) 69.1cm,19,2,0,0,27,2,0
+395,Carens largo,19,4,0,0,27,2,0
+396,Soul modelo 2010 - 2011 (lado grifo),19,4,0,1,27,2,0
+397,Soul modelo 2010 - 2011,19,3,0,2,27,2,0
+398,Soul modelo 2010 - 2017 (lado grifo),19,3,0,2,27,2,0
+399,K 2500,19,1,0,1,27,2,0
+400,Sportage,19,1,0,1,27,2,0
+401,Verna (Tanque Pequeño),17,1,1373,4,28,1,21000
+402,Verna (Tanque Pequeño),17,2,2933,4,28,1,21000
+403,I 25 - Kia rio spice ancho,17,4,2178,3,28,1,25000
+404,I 25 - Kia rio spice ancho lado grifo,17,3,2179,6,28,1,25000
+405,I 25 - Kia rio spice angosto,17,4,0,3,28,2,23000
+406,I 25 - Kia rio spice angosto,17,3,0,8,28,2,23000
+407,Atos,17,1,1351,15,28,1,17000
+408,Atos,17,2,1352,10,28,1,17000
+409,Tucson IX35 Revolution / Sportage R. Boquilla,17,4,1362,6,28,1,28000
+410,Tucson IX35 Revolution / Sportage R.,17,3,1361,3,28,1,28000
+411,Tucson Gasolina largo 47.3 liso (Gollete inclinado),17,4,1370,14,28,1,24000
+412,Tucson Gasolina corto 46.5 (Boquilla alta),17,3,1371,5,28,1,32000
+413,Tucson Gasolina largo 47.3 liso (Gollete recto),17,4,0,0,28,2,0
+414,Tucson Gasolina largo liso (Boquilla alta) / Kia Sportage 47.3,17,3,1369,5,28,1,28000
+415,Tucson Diesel corto corrugado (Gollete recto) 46.5,17,4,1368,10,28,1,23000
+416,Tucson Diesel corto corrugado (Corrugado cuadrado) 46.5,17,3,1367,2,28,1,27000
+417,Tucson Gasolina corto (Golete inclinado corrugado) 46.5,17,4,1372,10,28,1,20000
+418,Grand I-10 Ancho,17,4,5672,5,28,1,23000
+419,Grand I-10 Ancho,17,3,5671,1,28,1,0
+420,I-10,17,1,1359,10,29,1,23000
+421,I-10 mecanico (Gollete Inclinado) Taxi,17,2,1360,7,29,1,22000
+422,I-10 mecanico (Gollete recto) Particular,17,2,6667,7,29,1,22000
+423,EON,17,1,4780,6,29,1,22000
+424,EON,17,2,6425,2,29,1,22000
+425,I-35 - Cerato Pro / cerato Koup mod. 2014 (Gollete inclinado),17,4,0,5,29,2,26000
+426,I-35 - Cerato Pro / cerato Koup mod. 2014 (Gollete recto),17,4,0,1,29,2,0
+427,I-35 - Cerato Pro / cerato Koup mod. 2014,17,3,4198,4,29,1,25000
+428,I-35 - Cerato Pro / cerato Koup mod. 2014 / Kia Soul 2012-2017 (Gollete inclinado hacia arriba),17,4,4199,0,29,1,0
+429,Zotye 56.6cm,33,1,1790,8,29,1,26000
+430,Zotye 56.6cm,33,2,4241,5,29,1,30800
+431,Foton Tuland sin tapa,34,1,0,3,29,2,35000
+432,Foton Tuland,34,2,0,5,29,2,36000
+433,macho 4.5 (panal cobre) grafar,30,1,2156,3,29,1,33000
+434,Panal aluminio 4.5 (macho),30,1,1493,5,29,1,32000
+435,Macho 2012 / v6 (Gollete lado pasajero),30,1,3590,3,29,1,33000
+436,Hilux Vigo Gasolina con tapa 2.7 / Fortuner 2.7,30,1,1492,12,29,1,27000
+437,Hilux Vigo Gasolina,30,2,2385,4,29,1,33000
+438,Hilux Vigo Diesel Sin tapa / Fortuner 3.0,30,1,1491,12,29,1,30000
+439,Hilux Vigo Diesel Mecanica,30,2,2386,4,29,1,33000
+440,Hilux Vigo Diesel Automatica,30,2,0,1,29,2,0
+441,Hilux Hi-Rider,30,1,1490,1,29,1,22000
+442,Prado (Zumo) Sumo / Runner,30,1,1494,3,29,1,30000
+443,Prado (Zumo) Sumo / Runner automatico,30,2,0,1,29,2,320000
+444,Prado TXL / Runner,30,4,0,0,29,2,0
+445,Prado TXL / Runner,30,3,0,1,29,2,0
+446,Prado VX-TX (grifo),30,4,4245,3,29,1,44000
+447,Prado VX-TX (Tubo para auxiliar),30,3,3387,6,29,1,45000
+448,150 F150 / 350,10,3,7388,0,30,1,35000
+449,150 F150 / 350 (boquilla de llenado),10,4,7389,0,30,1,40000
+450,Bronco / F150 / F350 8 Cilindros Automatico (boquilla de llenado),10,3,2327,0,30,1,30000
+451,Bronco / F150 / F350 8 Cilindros,10,4,1308,0,30,1,34000
+452,Explorer 95-97 Aventura Angosto Derecho,10,4,1573,0,30,1,48000
+453,Outlander 14,23,1,6063,0,30,1,38500
+454,Sportero (Gollete junto boquilla),23,3,0,0,30,2,52000
+455,Nativa - montero sport,23,1,1429,0,30,1,32000
+456,Tucson Gasolina largo 47.3 liso (Gollete inclinado),17,4,1370,0,30,1,24000
+457,Compass 08 - Patriot 08,35,4,5143,0,30,2,0
+458,Logan - Sandero 2016 / Duster 2017 con tubo Ancho 4cm,26,4,4012,0,30,1,24000
+459,Corsa evolution,4,4,1453,0,30,1,27000
+460,Corsa evolution,4,3,1452,0,30,1,26000
+461,Ductro 500 (Rad. con y sin tapa),15,2,3381,0,30,1,46000
+462,300 616 modelo 2014 (sin boquilla),15,1,3717,0,30,1,35000
+463,Ductro 500 (Sin Tubo),15,1,1506,0,30,1,74000
+464,Ductro 500 (Con Tubo),15,1,2974,0,30,1,70000

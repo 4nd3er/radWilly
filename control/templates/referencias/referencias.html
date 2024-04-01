@@ -38,40 +38,41 @@
         </div>
     </div>
 
-    <div class="row m-3" style="border-radius: .3rem; border: 1px solid gray;">
-        <span style="position: relative; bottom: .75rem; left: .5rem; background-color: white; width: auto;">Buscar por marca</span>
-        <form method="GET">
-            <input id="buscarMarca" type="hidden" name="buscar" onchange="buscarMarcaGet();" value="{{request.GET.buscar}}" />
-                {% for dato in marcas %}
-                    <button class="mb-2 mt-1 btn btn-sm btn-outline-secondary btnMarca" onclick="buscarMarcaGet('{{dato}}');">{{ dato }}</button>
-                {% endfor %}
-        </form>
-    </div>
+    <div class="container-fluid mx-auto mb-3" style="border-radius: .3rem; border: 1px solid gray; width: 95%;">
+        <div class="mb-3">
+            <label class="mb-2">Selecciona para filtrar por marca o por lugar (vitrina 1, caja 1, caja2, etc.)</label>
+            <select id="selectFilter" class="form-select">
+                <option>Buscar por</option>
+                <option value="brand">Marca</option>
+                <option value="place">Lugar</option>
+            </select>
+        </div>
 
-    {% comment %} <div class="row container-fluid">
-        <div class="col-md m-3">
-            <div class="row" style="border-radius: .3rem; border: 1px solid gray;">
+        <hr />
+        
+        <div class="m-3">
+            <div id="brandSearch" class="row" style="border-radius: .3rem; border: 1px solid gray; display: none; opacity: 0; transition: .3s all ease-in-out;">
                 <span style="position: relative; bottom: .75rem; left: .5rem; background-color: white; width: auto;">Buscar por marca</span>
                 <form method="GET">
-                    <input id="buscarMarca" type="hidden" name="buscar" onchange="buscarMarcaGet();" value="{{request.GET.buscar}}" />
+                    <input class="buscarMarca" type="hidden" name="buscar" onchange="buscarMarcaGet();" value="{{request.GET.buscar}}" />
                         {% for dato in marcas %}
                             <button class="mb-2 mt-1 btn btn-sm btn-outline-secondary btnMarca" onclick="buscarMarcaGet('{{dato}}');">{{ dato }}</button>
                         {% endfor %}
                 </form>
             </div>
         </div>
-        <div class="col-md">
-            <div class="row m-3" style="border-radius: .3rem; border: 1px solid gray;">
+        <div class="m-3">
+            <div id="placeSearch" class="row" style="border-radius: .3rem; border: 1px solid gray; display: none; opacity: 0; transition: .3s all ease-in-out;">
                 <span style="position: relative; bottom: .75rem; left: .5rem; background-color: white; width: auto;">Buscar por lugar</span>
                 <form method="GET">
-                    <input id="buscarMarca" type="hidden" name="buscar" onchange="buscarMarcaGet();" value="{{request.GET.buscar}}" />
+                    <input class="buscarMarca" type="hidden" name="buscar" onchange="buscarMarcaGet();" value="{{request.GET.buscar}}" />
                         {% for dato in posiciones %}
                             <button class="mb-2 mt-1 btn btn-sm btn-outline-secondary btnMarca" onclick="buscarMarcaGet('{{dato}}');">{{ dato }}</button>
                         {% endfor %}
                 </form>
             </div>
         </div>
-    </div> {% endcomment %}
+    </div>
   
     <div class="mb-3 container-fluid rounded card border-0" style="height: 50vh;">
         <div class="table-responsive">
@@ -125,5 +126,8 @@
     <div class="modal fade" id="editar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
 
     <div class="modal fade" id="eliminar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"></div>
+
+    {% load static %}
+    <script src="{% static "Js/selectReference.js" %}"></script>
 
 {% endblock contenido %}
