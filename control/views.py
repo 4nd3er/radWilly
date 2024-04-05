@@ -48,6 +48,7 @@ def Registrarse(request):
         
         if registro.is_valid():
             registro.is_active = 1 # TODO comprobar si sirve
+            registro.is_staff = 1 # TODO comprobar si sirve
             registro.save()
             messages.success(request,'Te has registrado exitosamente')
             return redirect('inicio')

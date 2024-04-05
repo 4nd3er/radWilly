@@ -1,0 +1,7 @@
+
+*.csv
+control/__pychache__
+control/*.pyc
+radiadoresWilly/__pychache__
+radiadoresWilly/*.pyc
+*.sqlite3
